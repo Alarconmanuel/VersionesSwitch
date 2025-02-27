@@ -10,19 +10,19 @@ public class SwitchExampleOld {
                 tipoDia = "Inicio de semana";
                 break;
             case "martes":
-            case "miércoles":  // Corrección en "míercoles"
+            case "miércoles":
             case "jueves":
                 tipoDia = "Mediados de semana";
                 break;
             case "viernes":
-                tipoDia = "Inicio de fin de semana"; // Corrección en "Inicio de fin se semana"
+                tipoDia = "Inicio de fin de semana";
                 break;
             case "sábado":
             case "domingo":
-                tipoDia = "Fin de semana"; // Corrección en "Fin de seman"
+                tipoDia = "Fin de semana";
                 break;
             default:
-                tipoDia = "Día no válido"; // Se añade un caso por defecto
+                tipoDia = "Día no válido";
         }
 
         System.out.println(diaSemana + " es " + tipoDia);
